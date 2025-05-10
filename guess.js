@@ -25,7 +25,7 @@ play.addEventListener('click', () => {
 
 let compChoice;
 
-level.addEventListener('click', (event) => {
+level.addEventListener('change', (event) => {
     event.preventDefault();
 
     let choice = (event.target.value)
